@@ -1,0 +1,8 @@
+<p>"Welcome to your new Career in Docs creation!"</p>
+
+<%= form_with scope: :docs, url: docs_path, local: true do |forms| %>
+
+<p>
+    <%= forms.label :title %><br/>
+    <%= forms.text_field :title %>
+  </p>
